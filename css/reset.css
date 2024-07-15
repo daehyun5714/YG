@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #222;
+}
+
+body,
+html {
+    font-size: 10px;
+    font-family: 'ygm';
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'ygb';
+    src: url(../font/Klavika/klavika-bold.otf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'ygl';
+    src: url(../font/Klavika/klavika-light.otf);
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'ygm';
+    src: url(../font/Klavika/klavika-medium.otf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'ygr';
+    src: url(../font/Klavika/klavika-regular-italic.otf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'suit';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

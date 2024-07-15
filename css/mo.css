@@ -1,0 +1,185 @@
+@media all and (max-width:767px) {
+
+    body,
+    html {
+        font-size: 6px;
+    }
+
+    #album,
+    #news,
+    #vibe,
+    #about {
+        padding-top: 70px;
+    }
+
+    .title,
+    .news-top {
+        padding-bottom: 20px;
+    }
+
+    .artists {
+        display: none;
+    }
+
+    .mo-version {
+        display: block;
+    }
+
+    .artists-mo {
+        padding: 0 5%;
+        position: relative;
+    }
+
+    .artists-mo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .artists-mo p {
+        position: absolute;
+        bottom: 10px;
+        left: 30px;
+        color: #fff;
+        font-size: 3.5rem;
+    }
+
+    .artists_more-mo {
+        padding-top: 20px;
+        float: right;
+    }
+
+    .artists_more-mo a {
+        font-size: 2.5rem;
+    }
+
+    .artists_more-mo a::after {
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 10px;
+        background: url(../img/icon/arrowicon.png)no-repeat center;
+        filter: invert(100%) sepia(5%) saturate(7500%) hue-rotate(2deg) brightness(96%) contrast(108%);
+        background-size: contain;
+    }
+
+    .album-mo {
+        display: block;
+    }
+
+    .album-pc {
+        display: none;
+    }
+
+    .album-text {
+        top: 72%;
+    }
+
+    .swiper-button-prev {
+        left: 40%;
+    }
+
+    .swiper-button-next {
+        left: 48%;
+    }
+
+    .swiper-horizontal>.swiper-pagination-progressbar,
+    .swiper-pagination-progressbar.swiper-pagination-horizontal {
+        width: 30%;
+    }
+
+    .swiper-slide h2 {
+        font-size: 5rem;
+    }
+
+    .viewmore::after {
+        height: 8px;
+    }
+
+    .news-con2 {
+        display: none;
+    }
+
+    .news-conwrap>div {
+        width: 50%;
+    }
+
+    .news-text p {
+        font-size: 2.4rem;
+    }
+
+    .news-text span {
+        font-size: 2rem;
+    }
+
+    .vibe-title {
+        font-size: 7rem;
+        line-height: 45px;
+    }
+
+    .about {
+        height: 40vh;
+    }
+
+    .about-bg {
+        height: 40vh;
+    }
+
+    .footer-wrap {
+        gap: 70px;
+    }
+
+    .icon {
+        gap: 5px;
+    }
+
+    .icon a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon a img {
+        width: 100%;
+    }
+
+    .footer-logo {
+        width: 70px;
+    }
+
+    .about-text {
+        font-size: 3rem;
+    }
+
+    .about-text p {
+        padding-bottom: 5px;
+    }
+
+    .about-text .viewmore {
+        display: none;
+    }
+
+    .footer-btm {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .copyright {
+        align-items: flex-start;
+    }
+
+    .info {
+        padding-bottom: 10px;
+    }
+
+    .language a::after {
+        height: 5px;
+    }
+
+}
+
+@media all and (max-width:400px) {
+    .album-text {
+        top: 65%;
+    }
+}
